@@ -4,7 +4,8 @@ body {
     color: white;
 }
 
-.card {
+/* .card {
+  position: relative;
     width: 400px;
     height: 600px;
     background-color: rgb(25, 25, 25) !important;
@@ -12,7 +13,7 @@ body {
     border-radius: 0;
     z-index: 2;
     color: #edf0f1;
-}
+} */
 
 .suggest {
     margin-left: -11px;
@@ -155,15 +156,22 @@ form .txt_field {
     position: fixed;
     top: 550px;
     margin-left: 82px;
-}
-
-.confirm-button {
+  }
+  
+  .btn {
+    color: blueviolet !important ;
+    font-weight: bold;
+    
+  }
+  
+  .confirm-button {
     width: 150px;
-    border-radius: 10px
+    border-radius: 10px;
+    /* margin-inline: 110px; */
 }
 
 a {
-    color: inherit !important ;
+    color: blueviolet !important ;
     text-decoration: none !important;
 }
 

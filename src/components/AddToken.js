@@ -30,7 +30,7 @@ export default function AddToken() {
                                 </div>
                             </div>
                             <div className="col-2">
-                                <button className="btn btn-primary btn-block">Add</button>
+                                <button className="btn btn-light btn-block">Add</button>
                             </div>
                         </div>
                         <div className="row token">
@@ -43,13 +43,13 @@ export default function AddToken() {
                                 </div>
                             </div>
                             <div className="col-2">
-                                <button className="btn btn-primary btn-block">Add</button>
+                                <button className="btn btn-light btn-block">Add</button>
                             </div>
                         </div>
                     </div>
                     <div className="row button">
                         <div className="col-12 text-center">
-                            <button className="btn btn-primary btn-block confirm-button"><a href="./customtoken">Custom
+                            <button className="btn btn-light btn-block confirm-button"><a href="./customtoken">Custom
                             Token</a> </button>
                         </div>
                     </div>

@@ -3,8 +3,12 @@ import React from 'react'
 import './style.css';
 import bnb from '../imgages/bnb.png'
 import logo from '../imgages/base64.png'
+import { useHistory } from 'react-router-dom';
 
 export default function NewWallet() {
+
+    const history = useHistory()
+
     return (
         <div>
             <div class="container d-flex justify-content-center">
@@ -49,7 +53,7 @@ export default function NewWallet() {
                     </div>
                     <div class="row button">
                         <div class="col-12 text-center">
-                            <button class="btn btn-primary btn-block confirm-button"><a href="./confirmNewWallet">Continue</a> </button>
+                            <button class="btn btn-light btn-block confirm-button" onClick={()=>{history.push('/confirmnewwallet')}}> Continue </button>
                         </div>
                     </div>
                 </div>
